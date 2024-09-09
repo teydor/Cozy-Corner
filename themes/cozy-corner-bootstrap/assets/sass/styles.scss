@@ -18,8 +18,8 @@ body {
 
 .couch-image {
     opacity: 0.5;
-    max-width: 40vh;
-    max-height: 40vh;
+    max-width: 25vh;
+    max-height: 25vh;
     z-index: -1;
 
     @media (min-width: 576px) { // Small devices (sm)
