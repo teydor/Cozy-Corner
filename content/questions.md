@@ -1,7 +1,6 @@
 ---
 title: "Questions"
 date: 2024-09-07T01:41:07+03:00
-draft: true
 menu:
   navbar:
     identifier: "questions"

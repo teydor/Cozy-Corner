@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2024-09-07T00:12:58+03:00
-draft: true
 menu:
   navbar:
     identifier: "about"
