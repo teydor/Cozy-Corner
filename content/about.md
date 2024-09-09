@@ -31,9 +31,7 @@ WHEN and WHERE
 {{< /heading >}}
 {{< center-text >}}
 
-  The Cozy Corner is meeting up __every other Monday, at 7:00 pm__\
-  in the local community centre in Fulda:
-  ```L14 Lindenstraße 2, 36037 Fulda```
+  The Cozy Corner is meeting up __every other Monday, at 7:00 pm__
 
 <div class="text-center pb-5">
             <h3 hidden id="timer_text_first">Next meetup:</h3>
@@ -41,6 +39,11 @@ WHEN and WHERE
             <h4 hidden id="timer_text_message" class="font-monospace"></h4>
         </div>
 
+  in the local community centre in Fulda:
+  ```L14 Lindenstraße 2, 36037 Fulda```
+
 {{< /center-text >}}
 
 <iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/en/map/untitled-map_1111619?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=false&editMode=disabled&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=none&captionBar=false&captionMenus=false&fullscreenControl=false&captionControl=false&locateControl=false&measureControl=false&editinosmControl=false&starControl=false"></iframe>
+
+Website made with <3 by Mednis - https://mednis.id.lv
