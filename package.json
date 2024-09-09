@@ -1,0 +1,16 @@
+{
+  "name": "cozy-corner",
+  "version": "1.0.0",
+  "description": "A simple hugo-based website for Cozy Corner",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mednis",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "dayjs": "^1.11.13"
+  }
+}

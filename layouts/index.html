@@ -1,0 +1,55 @@
+
+{{ define "main" }}
+
+<script src="/js/dayjs.min.js" defer></script>
+<script src="/js/dayjs-relativetime.min.js" defer></script>
+<script src="/js/timer.js" defer></script>
+
+
+<div class="hw-100 d-flex align-items-center justify-content-center">
+    <!-- Couch image -->
+    <img class="overflow-hidden position-absolute bottom-0 end-0 couch-image" src="/images/couch.png">
+    <!-- Flags -->
+    <img class="overflow-hidden position-absolute top-5 start-0 flags-image" src="/images/flags.png">
+
+</div>
+
+<!-- Main content -->
+<div class="container"style="margin-top: 30vh;">
+        <h1 class="text-center display-2 fw-bold">Cozy Corner</h1>
+        <p class="text-center">Support group for queer and queer-questioning individuals</p>
+        <div class="d-flex justify-content-center">
+            <a href="/about" class="btn btn-primary btn-lg ms-1">
+                <i class="bi bi-geo-alt-fill"></i>
+                Where
+            </a>
+            <a href="/questions" class="btn btn-secondary btn-lg ms-1">
+                <i class="bi bi-question-circle"></i>
+                Questions
+            </a>
+            <a href="/rules" class="btn btn-secondary btn-lg ms-1">
+                <i class="bi bi-journal"></i>
+                Rules
+            </a>
+            
+        </div>
+        <div class="text-center pt-5">
+            <h3 hidden id="timer_text_first">Next meetup:</h3>
+            <h4 hidden id="timer_text_second" class="font-monospace"></h4>
+            <h4 hidden id="timer_text_message" class="font-monospace"></h4>
+        </div>
+        
+
+    </div>
+
+
+
+
+
+<!--
+<img src="/images/flags.png">
+<img src="/images/pillows.png">
+-->
+
+
+{{ end }}

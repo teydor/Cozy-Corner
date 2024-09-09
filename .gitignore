@@ -1,0 +1,6 @@
+# Ignore Node Modules
+node_modules
+
+# Ignore Hugo Generated Files
+public
+resources

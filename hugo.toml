@@ -1,0 +1,37 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Cozy Corner'
+theme = "cozy-corner-bootstrap"
+
+
+ [module]
+    [[module.mounts]]
+        source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+        target = "assets/js/bootstrap.bundle.min.js"
+
+    [[module.mounts]]
+        source = "node_modules/dayjs/dayjs.min.js"
+        target = "static/js/dayjs.min.js"
+
+    [[module.mounts]]
+        source = "node_modules/dayjs/plugin/relativeTime.js"
+        target = "static/js/dayjs-relativetime.min.js"
+
+    [[module.mounts]]
+        source = "node_modules/bootstrap-icons/font/fonts"
+        target = "static/css/fonts"
+    
+    [[module.mounts]]
+        source = 'static/images'
+        target = 'static/images'
+    
+    [[module.mounts]]
+        source = 'static/json'
+        target = 'static/json'
+
+    [[module.mounts]]
+        source = 'static/js'
+        target = 'static/js'
+
+[markup.goldmark.renderer]
+    unsafe = true
