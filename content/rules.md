@@ -1,7 +1,6 @@
 ---
 title: "Rules"
 date: 2024-09-07T01:41:21+03:00
-draft: true
 menu:
   navbar:
     identifier: "rules"
