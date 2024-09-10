@@ -7,11 +7,10 @@ menu:
     weight: 400 
     parent: ""
 ---
-<script src="/js/dayjs.min.js" defer></script>
-<script src="/js/dayjs-relativetime.min.js" defer></script>
-<script src="/js/timer.js" defer></script>
 
+{{< timer-scripts >}}
 {{<corner-flags>}}
+
 
 {{< heading >}}
 About The Cozy Corner
@@ -33,11 +32,7 @@ WHEN and WHERE
 
   The Cozy Corner is meeting up __every other Monday, at 7:00 pm__
 
-<div class="text-center pb-5">
-            <h3 hidden id="timer_text_first">Next meetup:</h3>
-            <h4 hidden id="timer_text_second" class="font-monospace"></h4>
-            <h4 hidden id="timer_text_message" class="font-monospace"></h4>
-        </div>
+  {{< timer >}}
 
   in the local community centre in Fulda:
   ```L14 Lindenstraße 2, 36037 Fulda```
