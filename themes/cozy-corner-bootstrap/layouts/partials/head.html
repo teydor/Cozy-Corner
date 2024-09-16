@@ -12,8 +12,11 @@
 
 <!-- Social Media tags -->
 <meta property="og:title" content="Cozy Corner Fulda - A support group for queer and queer questioning induviduals" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://cozy-fulda.de/apple-touch-icon.png" />
 <meta property="og:url" content="https://cozy-fulda.de/"/>
 <meta property="og:description" content="A student run support group for queer and queer-questioning individuals in Fulda" />
+
 
 <!-- JSON LD for SEO -->
 <script type="application/ld+json">
@@ -42,8 +45,7 @@
 {{ $style := resources.Get "sass/main.scss" | toCSS  $options | minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 
-<!-- 
-    include a favicon for your site if you have it, else omit the line below 
-    Location of favicon can be in mytheme/static/favicon.ico
--->
-<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
