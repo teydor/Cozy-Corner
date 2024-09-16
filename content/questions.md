@@ -6,6 +6,11 @@ menu:
     identifier: "questions"
     weight: 200 
     parent: ""
+
+seo_long_title:  "Cozy Corner Questions"
+seo_description: "Frequently asked questions about the Cozy Corner and meetups in Fulda!"
+seo_long_description: "Frequently asked questions about the Cozy Corner and meetups!"
+seo_keywords: ["Support","Queer", "Community Rules", "Accepting"]
 ---
 
 {{<corner-flags>}}
@@ -31,11 +36,11 @@ Just remember that this is a safe space dedicated to queer people first and fore
 
 {{< /accordion-item >}}
 
-{{< accordion-item title="Can germans and non-students come too?" heading="headingThree" target="collapseThree" parent="questionsAccordion" >}}
+{{< accordion-item title="Can Germans and non-students come too?" heading="headingThree" target="collapseThree" parent="questionsAccordion" >}}
 
 **Yes!**
 
-As long as you speak English during the group and in need support of fellow queer people – you are welcome here! :) 
+As long as you speak English during the group and are in need support of fellow queer people – you are welcome here! :) 
 
 {{< /accordion-item >}}
 

@@ -3,19 +3,33 @@
 
 <!-- Meta tags for SEO -->
 <meta name="description"
-    content="A student run support group for queer and queer-questioning individuals in Fulda" />
-<meta name="keywords" content="Queer, Support Group, LGBTQ+, Fulda">
+    content="{{ with .Params.seo_description }}{{ . }}{{ else }}{{ .Site.Params.defaultDescription }}{{ end }}" />
+
+<!-- Keywords get combined together with the default keywords -->
+
+{{ $keywords := slice }} <!-- Initialize an empty slice -->
+{{ with .Params.seo_keywords }}
+    {{ $keywords = append $keywords . }} <!-- Append content-specific keywords -->
+{{ end }}
+{{ with .Site.Params.defaultKeywords }}
+    {{ $keywords = append $keywords . }} <!-- Append default site-wide keywords -->
+{{ end }}
+
+<!-- If any keywords are defined, render the meta tag -->
+{{ if gt (len $keywords) 0 }}
+    <meta name="keywords" content="{{ delimit $keywords ", " }}">
+{{ end }}
 
 <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="theme-color" content="#92f9ff" />
 
 <!-- Social Media tags -->
-<meta property="og:title" content="Cozy Corner Fulda - A queer support group" />
+<meta property="og:title" content="{{ with .Params.seo_long_title }}{{ . }}{{ else }}{{.Site.Params.defaultLongDescription}}{{end}}" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="https://cozy-fulda.de/apple-touch-icon.png" />
 <meta property="og:url" content="https://cozy-fulda.de/"/>
-<meta property="og:description" content="A student run support group for queer and queer-questioning individuals in Fulda with bi-weekly meetups. Come and join!" />
+<meta property="og:description" content="{{ with .Params.seo_long_description }}{{ . }}{{ else }}{{.Site.Params.defaultLongDescription}}{{end}}" />
 
 <!-- JSON LD for SEO -->
 <script type="application/ld+json">

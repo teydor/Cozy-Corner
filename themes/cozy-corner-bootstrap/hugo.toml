@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cozy-fulda.de/'
 languageCode = 'en-US'
-title = 'My New Hugo Site'
+title = 'Cozy Corner'
 
 
 [module]

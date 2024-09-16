@@ -2,10 +2,17 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Cozy Corner'
 theme = "cozy-corner-bootstrap"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
+
+[params]
+    seo_long_title = 'Cozy Corner - A Cozy Support Group'
+    defaultTitle = "Cozy Corner"
+    defaultDescription = "A cozy, student run support group for queer and queer-questioning individuals in Fulda"
+    defaultLongDescription = "A cozy, student run support group for queer and queer-questioning individuals in Fulda with bi-weekly meetups. Come and join!"
+    defaultKeywords = ["default", "seo", "keywords", "LGBTQ+"]
 
 
- [module]
+[module]
     [[module.mounts]]
         source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
         target = "assets/js/bootstrap.bundle.min.js"

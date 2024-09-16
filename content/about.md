@@ -1,6 +1,12 @@
 ---
 title: "About"
 date: 2024-09-07T00:12:58+03:00
+
+seo_title: 'About'
+seo_description: "Cozy Corner is a student run and headed support group for queer and queer-questioning folks. Come and join our bi-weekly meetups!"
+seo_long_description: "Cozy Corner is a international student run and headed support group for queer and queer-questioning folks. We have bi-weekly meetups where we talk about issues or anything that is on our mind! Come and join us!"
+seo_keywords: ["LGBTQ", "Gay","Queer", "Support", "Community"]
+
 menu:
   navbar:
     identifier: "about"

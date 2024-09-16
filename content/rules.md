@@ -6,6 +6,11 @@ menu:
     identifier: "rules"
     weight: 300 
     parent: ""
+
+seo_long_title:  "Cozy Corner Rules"
+seo_description: "These are the Cozy Corner rules. We want to make our corner feel welcoming and everyone to feel accepted."
+seo_long_description: "These are the Cozy Corner rules. We want to make our corner feel welcoming and everyone to feel accepted."
+seo_keywords: ["Support","Queer", "Community Rules", "Accepting", "Fulda"]
 ---
 {{<corner-flags>}}
 
