@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Cozy Corner'
+title = 'Cozy Corner Fulda'
 theme = "cozy-corner-bootstrap"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
