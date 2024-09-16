@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://cozy-fulda.de/sitemap.xml
