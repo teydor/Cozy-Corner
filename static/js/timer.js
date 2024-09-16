@@ -1,6 +1,6 @@
 // Simple script to show the next event on the homepage and About page
 
-// Made at 3AM by Mednis... With (Slightly Sleepy) <3
+// Made at 3AM by Mednis... With <3 (Although Slightly Sleepy)
 // https://mednis.id.lv 
 
 timer_text = document.getElementById('timer_text_first');
@@ -23,7 +23,6 @@ async function fetchEvents() {
 
         // Parse the JSON file
         eventsData = await response.json();
-        console.log('Fetched Events JSON file!');
 
     } catch (error) {
         // Log any errors, do nothing else #YOLO
@@ -72,65 +71,82 @@ function setDate(text, strike = false) {
 }
 
 
-fetchEvents().then(() => {
+function updateTimer() {
 
-    
-    let nextEvent = null; // The next event, to be found in the loop
-    let currentTime = new Date(); // Current time, to compare with the event times
+    fetchEvents().then(() => {
 
-    // Find the next event
-    for (let i = 0; i < eventsData.length; i++) {
-
-        // Get the start and end times of the event
-        let eventStartTime = new Date(eventsData[i].start);
-        let eventEndTime = new Date(eventsData[i].end);
-
-        // If the event has not ended yet, set it as the next event
-        if (eventEndTime > currentTime) {
-            nextEvent = eventsData[i];
-            break;
-        }
-    }
-
-    console.log('Next Meetup:', nextEvent);
-
-    if (nextEvent) {
-        // Get the time of the event
-        let eventTime = new Date(nextEvent.start);
         
-        // Get the relative time
-        let eventText = dayjs().to(dayjs(eventTime))
+        let nextEvent = null; // The next event, to be found in the loop
+        let currentTime = new Date(); // Current time, to compare with the event times
 
-        // Format the date nicely
-        let eventDate = dayjs(eventTime).format('MMMM D - HH:mm');
+        // Find the next event
+        for (let i = 0; i < eventsData.length; i++) {
 
-        console.log('Your time is', currentTime);
-        console.log('Next meetup', eventText, "(", eventDate, ")");
-        
-        // Set the text
-        setText('Next Meetup');
-        setTime(eventText, nextEvent.cancelled);
-        setDate("(" + eventDate + ")", nextEvent.cancelled);
+            // Get the start and end times of the event
+            let eventStartTime = new Date(eventsData[i].start);
+            let eventEndTime = new Date(eventsData[i].end);
 
-        // If the event is cancelled, show a warning
-        if (nextEvent.cancelled) {
-
-            if (nextEvent.note) {
-                // Show the note
-                setWarning(nextEvent.note);
-            } else {
-                // Show a generic message
-                setWarning('Meetup Cancelled');
+            // If the event has not ended yet, set it as the next event
+            if (eventEndTime > currentTime) {
+                nextEvent = eventsData[i];
+                break;
             }
-        
         }
 
-        // If the event has a note, show it
-        if (nextEvent.note) {
+        console.log('Next Meetup:', nextEvent);
 
-            // Green text for good news
-            setWarning(nextEvent.note, 'text-success');
+        if (nextEvent) {
+            // Get the time of the event
+            let eventTime = new Date(nextEvent.start);
+            
+            // Get the relative time
+            let eventText = dayjs().to(dayjs(eventTime))
+
+            // Format the date nicely
+            let eventDate = dayjs(eventTime).format('MMMM D - HH:mm');
+
+            console.log('Next meetup', eventText, "(", eventDate, ")");
+            
+            // Set the text
+            setText('Next Meetup');
+            setTime(eventText, nextEvent.cancelled);
+            setDate("(" + eventDate + ")", nextEvent.cancelled);
+
+            // If the event is cancelled, show a warning
+            if (nextEvent.cancelled) {
+
+                if (nextEvent.note) {
+                    // Show the note
+                    setWarning(nextEvent.note);
+                } else {
+                    // Show a generic message
+                    setWarning('Meetup Cancelled');
+                }
+            
+            }
+
+            // If the event has a note, show it
+            if (nextEvent.note) {
+
+                // Green text for good news
+                setWarning(nextEvent.note, 'text-success');
+            }
+
         }
+    });
+}
 
+// Run the timer on page load and every minute
+window.onload = function () {
+    console.log('!! Updating Timer');
+    updateTimer();
+    setInterval(updateTimer, 60000);
+}
+
+// Update the timer if the page is focused
+document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') {
+        console.log('!! Updating Timer');
+        updateTimer();
     }
 });
