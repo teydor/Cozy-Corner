@@ -5,7 +5,7 @@ date: 2024-09-07T00:12:58+03:00
 seo_title: 'About'
 seo_description: "Cozy Corner is a student run and headed support group for queer and queer-questioning folks. Come and join our bi-weekly meetups!"
 seo_long_description: "Cozy Corner is a international student run and headed support group for queer and queer-questioning folks. We have bi-weekly meetups where we talk about issues or anything that is on our mind! Come and join us!"
-seo_keywords: ["LGBTQ", "Gay","Queer", "Support", "Community"]
+seo_keywords: ["Gay","Queer", "Support", "Community"]
 
 menu:
   navbar:
@@ -22,14 +22,17 @@ menu:
 About The Cozy Corner
 {{< /heading >}}
 
-{{< center-text >}}
-The Cozy Corner is a student lead support group initiative for queer and queer questioning induvidiuals.\
-The group is the space where we give each other space to talk about queer stuff that we can’t or not comfortable talking about anywhere else.
+{{< justify-text >}}
+The Cozy Corner is a student lead support group for queer and queer questioning people.\
+It's a place for conversations about queer related issues, a place to be listened to and supported by like minded peers.
 
-Cozy Corner is an international students initiative, where every participant is an equal part of the group responsible for its implementation.
+The Cozy Corner is an international students initiative. Everone who attends is equally responsible for the conversations, topics and making sure everyone feels equally respected and heard.
 
-__If you want to be a part of a local english-speaking queer community, make connections and to feel listened to - Cozy Corner welcomes you!__
-{{< /center-text >}}
+We meet up bi-weekly in a space graciously provided by the fulda community center.
+We all work together to keep the space clean and well kept fo us and anyone else in the lcoal community. 
+
+If you want to be a part of a local english-speaking queer community, make connections and feel listened to - __You're always welcomed in the Cozy Corner!__
+{{< /justify-text >}}
 
 {{< heading >}}
 WHEN and WHERE

@@ -16,7 +16,7 @@ seo_keywords: ["Support","Queer", "Community Rules", "Accepting"]
 {{<corner-flags>}}
 
 {{< heading >}}
-Cozy Questions
+Cozy QnA
 
 {{< /heading >}}
 
@@ -40,15 +40,21 @@ Just remember that this is a safe space dedicated to queer people first and fore
 
 **Yes!**
 
-As long as you speak English during the group and are in need support of fellow queer people – you are welcome here! :) 
+As long as you speak English during the group and are in need of support from fellow queer people – you are welcome here! :) 
 
 {{< /accordion-item >}}
 
 {{< accordion-item title="Is there a groupchat that I can join?" heading="headingFour" target="collapseFour" parent="questionsAccordion" >}}
 
-**Yes.** This one. 
+**Yes.** We have a dedicated WhatsApp group.
 
-**Important:** people are added only after they have attended a meeting at least once.
+If you wish to, you can also contact: 
+
+<p>
+[hello@cozy-fulda.de](mailto:hello@cozy-fulda.de)
+</p>
+
+**Important:** People are added only after they have attended a meeting at least once.
 
 {{< /accordion-item >}}
 
@@ -56,9 +62,9 @@ As long as you speak English during the group and are in need support of fellow 
 
 **Preferably, yes.** 
 
-You can be late, but please take note that we are meeting at `7:00 pm` and after the introductions the discussion itself starts at `7:20.`
+You can be late, but please take note that we are meeting at `7:00 pm`. After the introductions the discussions themselves start at `7:20.`
 
-If you are new, arrive at `7:00 pm.` If you’re not new, you can arrive no later than `7:20.`
+If you are new, please arrive at `7:00 pm.` If you've attended before, you can be late, but don't arrive any later than `7:20.`
 
  _Overall, please don’t be late so you don’t disturb the group._
 

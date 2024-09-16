@@ -9,7 +9,7 @@ disableKinds = ["taxonomy"]
     defaultTitle = "Cozy Corner"
     defaultDescription = "A cozy, student run support group for queer and queer-questioning individuals in Fulda"
     defaultLongDescription = "A cozy, student run support group for queer and queer-questioning individuals in Fulda with bi-weekly meetups. Come and join!"
-    defaultKeywords = ["default", "seo", "keywords", "LGBTQ+"]
+    defaultKeywords = ["Queer", "Support", "Fulda", "LGBTQ+"]
 
 
 [module]
