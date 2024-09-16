@@ -1,10 +1,41 @@
 <title>{{ .Title }}</title>
 <meta charset="utf-8">
+
+<!-- Meta tags for SEO -->
 <meta name="description"
-    content="Support group for queer and queer-questioning individuals" />
+    content="A student run support group for queer and queer-questioning individuals in Fulda" />
+<meta name="keywords" content="Queer, Support Group, LGBTQ+, Fulda">
+
 <meta name="dc.relation" content="{{ .Site.BaseURL }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="theme-color" content="#92f9ff" />
+
+<!-- Social Media tags -->
+<meta property="og:title" content="Cozy Corner Fulda - A support group for queer and queer questioning induviduals" />
+<meta property="og:url" content="https://cozy-fulda.de/"/>
+<meta property="og:description" content="A student run support group for queer and queer-questioning individuals in Fulda" />
+
+<!-- JSON LD for SEO -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "image": "https://cozy-fulda.de/images/couch.png",
+    "url": "https://cozy-fulda.de",
+    "logo": "https://cozy-fulda.de/images/couch.png",
+    "name": "Cozy Corner Fulda",
+    "description": "A student run support group for queer and queer-questioning individuals in Fulda",
+    "email": "tey@cozy-fulda.de",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lindenstraße 2",
+      "addressLocality": "Fulda",
+      "addressCountry": "DE",
+      "addressRegion": "Fulda",
+      "postalCode": "Fulda"
+    }
+  }
+</script>
 
 {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
 
