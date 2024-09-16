@@ -50,9 +50,7 @@ As long as you speak English during the group and are in need of support from fe
 
 If you wish to, you can also contact: 
 
-<p>
 [hello@cozy-fulda.de](mailto:hello@cozy-fulda.de)
-</p>
 
 **Important:** People are added only after they have attended a meeting at least once.
 
