@@ -2,8 +2,8 @@
     {
         "start": "2024-09-23T19:00:00+02:00",
         "end": "2024-09-23T22:00:00+02:00",
-        "note": "",
-        "cancelled": false
+        "note": "Semester break",
+        "cancelled": true
     },
     {
         "start": "2024-10-07T19:00:00+02:00",
