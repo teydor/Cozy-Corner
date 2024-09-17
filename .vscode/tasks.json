@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Launch Hugo Dev",
+            "type": "shell",
+            "command": "hugo server -D"
+        },
+        {
+            "label": "Launch Hugo Prod",
+            "type": "shell",
+            "command": "hugo server"
+        },
+        {
+            "label": "Open in Firefox",
+            "command": "firefox",
+            "windows": {
+                "command": "C:\\Program Files\\Mozilla Firefox\\firefox.exe"
+            },
+            "args": [
+                "http://localhost:1313"
+            ],
+        },
+        {
+            "label": "Open in Chrome",
+            "command": "chrome",
+            "windows": {
+                "command": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+            },
+            "args": [
+                "http://localhost:1313"
+            ],
+        }
+    ]
+  }
