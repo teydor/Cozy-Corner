@@ -1,51 +1,38 @@
 ---
-title: "Rules"
+title: "General Rules"
 date: 2024-09-07T01:41:21+03:00
-draft: true
 menu:
   navbar:
     identifier: "rules"
     weight: 300 
     parent: ""
 
-seo_long_title:  "Cozy Corner Rules"
+seo_long_title:  "General Rules"
 seo_description: "These are the Cozy Corner rules. We want to make our corner feel welcoming and everyone to feel accepted."
 seo_long_description: "These are the Cozy Corner rules. We want to make our corner feel welcoming and everyone to feel accepted."
 seo_keywords: ["Support","Queer", "Community Rules", "Accepting"]
 ---
 {{<corner-flags>}}
 
-{{< heading >}} Cozy Corner Rules {{< /heading >}}
+{{< heading >}} General Rules {{< /heading >}}
 
-These are the group rules, there arent that many, so make sure to read them!
+We meet at the L14zwo Community Centre, so we follow their general guidelines for using the space.  
 
-**1.** The group is attended only by queer and queer-questioning individuals. 
+  - No discriminatory behaviour towards others. 
+  - No damaging the property of the Community Centre. 
+  - No stealing items from the Community Centre. 
+  - No littering—please clean up your trash. 
+  - Communal items can be used, but please return them to their original place in the same condition. 
 
-**2.** The Cozy Corner is a place for conversations that can't happen anywhere else so any conversations that happen in the group should stay in the group
+If you repeatedly break these guidelines, you will be banned from the space. 
 
-**3.** We raise a hand if we want to say something, and talk only in turns.
 
-**4.** We stick to a chosen topic and avoid dialogues during its discussion.
+If you have any questions regarding Cozy Corner itself, please use this email: tey@cozy-fulda.de
 
-**5.** We don’t give advice unless it's being asked for.
+To learn more about the L14zwo you can visit their website: https://awo-fulda.de/en/begegnungsstaetten/l14zwo/
 
-**6.** All participants are equal regardless of their gender, age, labels, stage of transition, etc.
-
-**7.** We do not question anyone about their labels and we do not ask to educate us on them.\
- Everyone shares as much information about themselves as they want to.
-
-**8.** We speak in _“I” statements_, talk about only ourselves and share only our personal experiences.
-
-**9.** We use the _“STOP”_ word, if something offensive or rule-breaking was said, even if not every group participant sees it.
-
-**10.** Use of any psychoactive substances such as weed and alcohol during the meetups is prohibited. \
-Being present in the meetups in an inebriated state is not allowed.
-
-**11.** We move freely during the group, for example in the bathroom, for tea and etc. but try to not make noise or crackle with wrappers.
-
-**12.** For the duration of topic discussions we put our phones on mute and do not use them.
-
-**13.** We are thankful to the place that we are meeting up in and the group we are a part of,so everyone makes sure that every participant\
- feels comfortable in this space, and we clean all of the trash we have left after ourselves.
+If you have any suggestions, initiatives, questions or complaints regarding the space, please use these contacts:
+`0661 480045-90`\
+Mail: `christian.schmitt@awo-fulda.de `
 
 {{<corner-cups>}}
