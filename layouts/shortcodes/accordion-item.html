@@ -1,4 +1,4 @@
-<div class="accordion-item">
+<div class="accordion-item colored">
     <h2 class="accordion-header" id='{{ .Get "heading" }}'>
       <button class='accordion-button {{ if eq (.Get "show" | default "false") "false" }}collapsed{{ end }}' type="button" data-bs-toggle="collapse" data-bs-target='#{{ .Get "target" }}' aria-expanded='{{ .Get "show" | default "false" }}' aria-controls='{{ .Get "target" }}'>
         {{ .Get "title" }}
