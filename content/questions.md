@@ -14,6 +14,7 @@ seo_keywords: ["Support","Queer", "Community Rules", "Accepting"]
 ---
 
 {{<corner-flags>}}
+{{<corner-pillow>}}
 
 {{< heading >}}
 Cozy QnA
@@ -48,9 +49,7 @@ As long as you speak English during the group and are in need of support from fe
 
 **Yes.** We have a dedicated WhatsApp group.
 
-If you wish to, you can also contact: 
-
-[hello@cozy-fulda.de](mailto:hello@cozy-fulda.de)
+If you wish to, you can also contact: <a class="link-color" href="mailto:tey@cozy-fulda.de">tey@cozy-fulda.de</a>
 
 **Important:** People are added only after they have attended a meeting at least once.
 

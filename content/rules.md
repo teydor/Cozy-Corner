@@ -47,3 +47,5 @@ Being present in the meetups in an inebriated state is not allowed.
 
 **13.** We are thankful to the place that we are meeting up in and the group we are a part of,so everyone makes sure that every participant\
  feels comfortable in this space, and we clean all of the trash we have left after ourselves.
+
+{{<corner-cups>}}
