@@ -54,6 +54,12 @@
   }
 </script>
 
+<!-- Geo Tags -->
+<meta name="geo.region" content="DE" />
+<meta name="geo.placename" content="Fulda" />
+<meta name="geo.position" content="50.554602;9.67859" />
+<meta name="ICBM" content="50.554602, 9.67859" />
+
 {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
 
 {{ $style := resources.Get "sass/main.scss" | toCSS  $options | minify }}
