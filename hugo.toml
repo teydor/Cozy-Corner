@@ -7,9 +7,9 @@ disableKinds = ["taxonomy"]
 [params]
     seo_long_title = 'Cozy Corner - A Cozy Support Group'
     defaultTitle = "Cozy Corner"
-    defaultDescription = "A cozy, student run support group for queer and queer-questioning individuals in Fulda"
-    defaultLongDescription = "A cozy, student run support group for queer and queer-questioning individuals in Fulda with bi-weekly meetups. Come and join!"
-    defaultKeywords = ["Queer", "Support", "Fulda", "LGBTQ+"]
+    defaultDescription = "A cozy support group for queer people in Fulda"
+    defaultLongDescription = "A cozy, student run support group for queer and queer-questioning people in Fulda. Join and be heard!"
+    defaultKeywords = ["Queer", "Support", "Group", "Fulda", "LGBTQ+", "Cozy", "Fulda Cozy"]
 
 
 [module]
