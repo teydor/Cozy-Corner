@@ -32,8 +32,8 @@
     {
         "start": "2024-12-02T19:00:00+01:00",
         "end": "2024-12-02T22:00:00+01:00",
-        "note": "",
-        "cancelled": false
+        "note": "Organiser is sick",
+        "cancelled": true
     },
     {
         "start": "2024-12-16T19:00:00+01:00",
