@@ -9,7 +9,7 @@ file_path = "../static/json/events.json"
 
 
 # Year we are generating the dates for
-year = 2024
+year = 2025
 
 # The start time for the events
 # 24-hour time format pls :D
@@ -19,14 +19,14 @@ start_time = "19:00"
 end_time = "22:00"
 
 # Start date for the events
-current_date = datetime.date(year, 9, 14)
+current_date = datetime.date(year, 2, 12)
 
 # Keep track of the amount of mondays so we can check if it's the second one
 mondays = 0
 
 while current_date.year == year:  # Loop until the year changes
     # Check if the day is a monday
-    if current_date.weekday() == 0:
+    if current_date.weekday() == 2:
         # Is it a second monday?
         if mondays % 2 == 1:
             start_datetime = datetime.datetime.strptime(
